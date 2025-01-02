@@ -5,7 +5,7 @@ License: https://www.wowthemes.net/freebies-license/
 */
 
 body {
-    background-color: #ffd1dc; /* Pastel pink */
+    background: #ffd1dc; /* Pastel pink */
 }
 
 @media screen and (min-width:1500px) {
