@@ -2,8 +2,8 @@
 name: "Small Things by Sara"
 title: "Small Things by Sara"
 description: "Sourdough, Food, and Reviews"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: 'assets/images/Logo.png'
+favicon: 'assets/images/Logo.png'
 baseurl: ""
 url: "https://sarasmallthings.github.io"
 google_analytics: 'UA-46278016-1'
