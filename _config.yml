@@ -14,12 +14,15 @@ permalink: /:title/
 
 # Authors
 authors:
-  Sara:
-    name: Sara
-    display_name: Sara
-    email: sarasmallthings99@gmail.com
-    description: "FILL THIS IN"
-    picture: 'assets/images/Sara Stegman.png'  # Replace with the actual image URL
+  Sal:
+    name: Sal
+    display_name: Sal    
+    avatar: 'assets/images/avatar.png'
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: wowthemesnet@gmail.com
+    web: https://www.wowthemes.net
+    twitter: https://twitter.com/wowthemesnet
+    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
   john:
     name: John
     display_name: John    
