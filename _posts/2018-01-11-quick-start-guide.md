@@ -8,8 +8,6 @@ featured: true
 hidden: true
 ---
 
-<img src="{{ page.image | relative_url }}" alt="Sourdough Pumpkin" style="border-radius: 50%; width: auto; max-width: 300px; height: auto; display: block; margin: 0 auto;">
-
 Ready to bake something festive and delicious? This sourdough pumpkin bread is the perfect autumn treat!
 
 ## Sourdough Pumpkin
