@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sourdough Pumpkin Recipe"
-author: sal
+author: sara
 categories: [ Recipes, Baking ]
 image: assets/images/Image 4.png  # Rectangular image for the blog page
 featured: true
