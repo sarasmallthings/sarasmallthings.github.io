@@ -43,6 +43,12 @@ authors:
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: nicole.a.duque@gmail.com
     description: "Nicole is a close friend of Sara's and is currently completing her MA in Art History at NYU. She enjoys exploring the intersections of art, culture, and history."
+  kevin:
+    name: Kevin
+    display_name: Kevin
+    avatar: 'assets/images/Personal_Avatar_Photo.png'
+    email: kevin@email.com
+    description: "Kevin is in a relationship with Sara and is currently studying for his MA in Economics at Rutgers University. He is passionate about data analysis, economic research, and is always exploring new ways to blend his academic pursuits with real-world applications."
 
 
 # Plugins
