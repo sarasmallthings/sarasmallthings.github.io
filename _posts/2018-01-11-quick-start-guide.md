@@ -3,7 +3,7 @@ layout: post
 title: "Sourdough Pumpkin Recipe"
 author: sal
 categories: [ Recipes, Baking ]
-image: assets/images/Image 4.png
+image: assets/images/Image 4.png  # Rectangular image for the blog page
 featured: true
 hidden: true
 ---
@@ -35,4 +35,4 @@ Ready to bake something festive and delicious? This sourdough pumpkin bread is t
 5. **Tying:** Cut 4 pieces of string about 15" each, dip them in olive oil so they do not burn in the oven! Lay them on your work surface as seen in the video and dump your dough directly into the center of the strings. One by one, tie up your pumpkin like the beautiful pumpkin she is. Clip the extra string and dust the top with more cinnamon, sugar, and pumpkin spice.  
 6. Use a bread lame to make any desired cuts, then place in the hot Dutch oven.  
 7. Bake with the lid on for 20 minutes at 500°F. Bake with the lid off for 20 minutes uncovered at 500°F.  
-8. Admire your pumpkin bread and top it with a cinnamon stick to complete the look. Enjoy!  
+8. Admire your pumpkin bread and top her with a cinnamon stick to complete the look. Enjoy!
