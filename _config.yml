@@ -1,3 +1,6 @@
+google_fonts:
+  - "Dancing Script:400,700"  # Add Dancing Script font (or another modern calligraphy font you prefer)
+
 # Site
 name: "Small Things by Sara"
 title: "Small Things by Sara"
