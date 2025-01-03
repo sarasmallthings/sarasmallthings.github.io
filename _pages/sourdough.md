@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sourdough Recipes
-permalink: /sourdough/
+permalink: /sourdough
 ---
 
 # Sourdough Recipes
