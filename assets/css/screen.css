@@ -309,8 +309,8 @@ span.post-read-more a:hover {
 .mediumnavigation .navbar-brand img {
     max-height: 60px; /* Change this based on your desired logo size */
     margin-right: 5px;
-    padding-top: 10px;   /* Add top padding to increase space above the logo */
-    padding-bottom: 10px; /* Add bottom padding to increase space below the logo */
+    padding-top: 5px;   /* Add top padding to increase space above the logo */
+    padding-bottom: 5px; /* Add bottom padding to increase space below the logo */
 }
 
 .mainheading h1.sitetitle {
