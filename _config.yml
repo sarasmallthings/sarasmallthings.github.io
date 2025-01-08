@@ -5,8 +5,8 @@ google_fonts:
 name: "Small Things by Sara"
 title: "Small Things by Sara"
 description: "Sourdough, Food, and Reviews"
-logo: 'assets/images/Sara Small Things.png'
-favicon: 'assets/images/Sara Small Things.png'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
 baseurl: ""
 url: "https://sarasmallthings.github.io"
 google_analytics: 'UA-46278016-1'
