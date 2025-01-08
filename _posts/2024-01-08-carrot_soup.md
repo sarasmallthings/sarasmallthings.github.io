@@ -32,6 +32,6 @@ Hey, small foodies! My signature Carrot Chicken Veggie Soup is a cozy blend of t
 ### Directions:
 1. Bake and shred chicken breast and set aside for later. Skin your carrots and potato and set aside for later. Chop onion, garlic, celery and kale and set aside for later. 
 2. Add hand-full of diced onion and garlic to a heated pot with coconut oil. Season with salt and pepper and let sizzle for a minute. 
-3. Add your water, carrots, and potato and bouillon and bring leave on medium heat for 40 minutes. 
+3. Add your water, carrots, and potato and bouillon and leave on medium heat for 40 minutes. 
 4. Remove the potato and cube it. Before adding it back in, immersion blend the carrots until smooth consistency. Add cubes of potato back in along with the remaining diced onion, celery, kale, and chicken. Add splashes of lemon and agave and all seasonings and let cook for another 20 minutes. Serve and enjoy!
 *Plating: Top with some roasted carrots, a dash of oil and lemon and enjoy!
