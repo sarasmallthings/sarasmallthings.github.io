@@ -46,20 +46,32 @@ permalink: /sourdough
  <div id="recipeCarousel" class="carousel" style="margin: 40px 0; max-width: 800px; height: 300px; overflow: hidden; border-radius: 15px; position: relative; margin-left: auto; margin-right: auto;">
   <div class="carousel-container" style="width: 100%; height: 100%; position: relative;">
     <div class="carousel-slides" style="display: flex; transition: transform 0.5s ease-in-out; height: 100%;">
-      <div class="carousel-slide" style="flex: 0 0 100%; text-align: center; background-color: #ffe9d6; padding: 10px; height: 100%;">
-        <img src="{{ site.baseurl }}/assets/images/Image 1.png" alt="Sourdough Cinnamon Rolls" style="max-width: 100%; max-height: 100%; border-radius: 10px; object-fit: contain; margin-bottom: 10px;">
-        <h3 style="color: #e67e22;">Sourdough Cinnamon Rolls</h3>
-        <p style="color: #7f8c8d;">Indulge in the sweet and tangy flavors of homemade sourdough cinnamon rolls.</p>
+      <div class="carousel-slide" style="flex: 0 0 100%; display: flex; height: 100%; background-color: #ffe9d6; padding: 10px; align-items: center;">
+        <div style="flex: 1; text-align: center; padding: 10px;">
+          <img src="{{ site.baseurl }}/assets/images/Image 1.png" alt="Sourdough Cinnamon Rolls" style="max-width: 100%; max-height: 100%; border-radius: 10px; object-fit: contain;">
+        </div>
+        <div style="flex: 1; text-align: left; padding: 10px;">
+          <h3 style="color: #e67e22; margin-bottom: 10px;">Sourdough Cinnamon Rolls</h3>
+          <p style="color: #7f8c8d;">Indulge in the sweet and tangy flavors of homemade sourdough cinnamon rolls.</p>
+        </div>
       </div>
-      <div class="carousel-slide" style="flex: 0 0 100%; text-align: center; background-color: #f4f4f4; padding: 10px; height: 100%;">
-        <img src="{{ site.baseurl }}/assets/images/Image 2.png" alt="Sourdough Pizza" style="max-width: 100%; max-height: 100%; border-radius: 10px; object-fit: contain; margin-bottom: 10px;">
-        <h3 style="color: #2c3e50;">Sourdough Pizza</h3>
-        <p style="color: #7f8c8d;">A crispy crust that’s perfect for any topping. A crowd favorite for sourdough lovers!</p>
+      <div class="carousel-slide" style="flex: 0 0 100%; display: flex; height: 100%; background-color: #f4f4f4; padding: 10px; align-items: center;">
+        <div style="flex: 1; text-align: center; padding: 10px;">
+          <img src="{{ site.baseurl }}/assets/images/Image 2.png" alt="Sourdough Pizza" style="max-width: 100%; max-height: 100%; border-radius: 10px; object-fit: contain;">
+        </div>
+        <div style="flex: 1; text-align: left; padding: 10px;">
+          <h3 style="color: #2c3e50; margin-bottom: 10px;">Sourdough Pizza</h3>
+          <p style="color: #7f8c8d;">A crispy crust that’s perfect for any topping. A crowd favorite for sourdough lovers!</p>
+        </div>
       </div>
-      <div class="carousel-slide" style="flex: 0 0 100%; text-align: center; background-color: #ffe9d6; padding: 10px; height: 100%;">
-        <img src="{{ site.baseurl }}/assets/images/Image 3.png" alt="Sourdough Pancakes" style="max-width: 100%; max-height: 100%; border-radius: 10px; object-fit: contain; margin-bottom: 10px;">
-        <h3 style="color: #e67e22;">Sourdough Pancakes</h3>
-        <p style="color: #7f8c8d;">Fluffy, tangy pancakes to brighten your mornings and bring joy to your family.</p>
+      <div class="carousel-slide" style="flex: 0 0 100%; display: flex; height: 100%; background-color: #ffe9d6; padding: 10px; align-items: center;">
+        <div style="flex: 1; text-align: center; padding: 10px;">
+          <img src="{{ site.baseurl }}/assets/images/Image 3.png" alt="Sourdough Pancakes" style="max-width: 100%; max-height: 100%; border-radius: 10px; object-fit: contain;">
+        </div>
+        <div style="flex: 1; text-align: left; padding: 10px;">
+          <h3 style="color: #e67e22; margin-bottom: 10px;">Sourdough Pancakes</h3>
+          <p style="color: #7f8c8d;">Fluffy, tangy pancakes to brighten your mornings and bring joy to your family.</p>
+        </div>
       </div>
     </div>
     <div style="position: absolute; bottom: 15px; left: 50%; transform: translateX(-50%);">
@@ -110,7 +122,6 @@ permalink: /sourdough
   updateCarousel();
   startCarousel();
 </script>
-
 
   <h2>Why Sourdough?</h2>
   <p>Sourdough is more than bread; it’s a journey. Its rich flavor, health benefits, and timeless techniques make it a rewarding experience for anyone who tries it. Let’s bake memories together!</p>
