@@ -4,6 +4,7 @@ title: Sourdough Recipes
 permalink: /sourdough
 ---
 
+<!-- Video Background with Text Overlay -->
 <div style="position: relative; overflow: hidden; height: 300px; border-radius: 15px; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);">
   <!-- Background Video -->
   <video autoplay muted loop playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
@@ -11,13 +12,16 @@ permalink: /sourdough
     Your browser does not support the video tag.
   </video>
 
-  <!-- Text Overlay -->
-  <div style="position: relative; z-index: 1; text-align: center; color: white; padding: 80px 20px; background: rgba(0, 0, 0, 0.4);">
-    <h1 style="font-size: 2.5em; margin: 0;">Welcome to Sourdough Recipes</h1>
-    <p style="font-size: 1.2em; margin-top: 10px;">Discover the art of fermentation and bake delicious memories.</p>
+  <!-- Full Overlay -->
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.4); display: flex; align-items: center; justify-content: center; z-index: 1;">
+    <div style="text-align: center; color: white; padding: 20px;">
+      <h1 style="font-size: 2.5em; margin: 0;">Welcome to Sourdough Recipes</h1>
+      <p style="font-size: 1.2em; margin-top: 10px;">Discover the art of fermentation and bake delicious memories.</p>
+    </div>
   </div>
 </div>
 
+<!-- Content Section -->
 <div class="container" style="padding: 20px;">
   <h2>Explore Our Recipes</h2>
   <p>Each recipe is carefully crafted to guide you step-by-step, ensuring success and delight. Click below to start baking!</p>
@@ -43,6 +47,18 @@ permalink: /sourdough
     </li>
   </ul>
   
+  <!-- Featured Recipe Section -->
+  <h2>Featured Recipe of the Month</h2>
+  <div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+    <h3 style="color: #e67e22;">Sourdough Cinnamon Rolls</h3>
+    <p style="color: #7f8c8d;">Indulge in the sweet and tangy flavors of homemade sourdough cinnamon rolls. Perfect for brunch or dessert!</p>
+    <img src="{{ site.baseurl }}/assets/images/cinnamon-rolls.jpg" alt="Sourdough Cinnamon Rolls" style="max-width: 100%; border-radius: 10px; margin-top: 10px;">
+    <div style="text-align: center; margin-top: 10px;">
+      <a href="{{ site.baseurl }}/sourdough-cinnamon-rolls-post" style="padding: 10px 20px; background-color: #e67e22; color: white; text-decoration: none; border-radius: 5px;">Get the Recipe</a>
+    </div>
+  </div>
+
+  <!-- Why Sourdough Section -->
   <h2>Why Sourdough?</h2>
   <p>Sourdough is more than bread; it’s a journey. Its rich flavor, health benefits, and timeless techniques make it a rewarding experience for anyone who tries it. Let’s bake memories together!</p>
   
