@@ -46,31 +46,31 @@ permalink: /sourdough
  <div id="recipeCarousel" class="carousel" style="margin: 40px 0; max-width: 800px; height: 300px; overflow: hidden; border-radius: 15px; position: relative; margin-left: auto; margin-right: auto;">
   <div class="carousel-container" style="width: 100%; height: 100%; position: relative;">
     <div class="carousel-slides" style="display: flex; transition: transform 0.5s ease-in-out; height: 100%;">
-      <div class="carousel-slide" style="flex: 0 0 100%; display: flex; height: 100%; background-color: #ffe9d6; padding: 10px; align-items: center;">
-        <div style="flex: 1; text-align: center; padding: 10px;">
-          <img src="{{ site.baseurl }}/assets/images/Image 1.png" alt="Sourdough Cinnamon Rolls" style="max-width: 100%; max-height: 100%; border-radius: 10px; object-fit: contain;">
+      <div class="carousel-slide" style="flex: 0 0 100%; display: flex; height: 100%; padding: 0;">
+        <div style="flex: 1; height: 100%; overflow: hidden;">
+          <img src="{{ site.baseurl }}/assets/images/Image 1.png" alt="Sourdough Cinnamon Rolls" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
-        <div style="flex: 1; text-align: left; padding: 10px;">
-          <h3 style="color: #e67e22; margin-bottom: 10px;">Sourdough Cinnamon Rolls</h3>
-          <p style="color: #7f8c8d;">Indulge in the sweet and tangy flavors of homemade sourdough cinnamon rolls.</p>
-        </div>
-      </div>
-      <div class="carousel-slide" style="flex: 0 0 100%; display: flex; height: 100%; background-color: #f4f4f4; padding: 10px; align-items: center;">
-        <div style="flex: 1; text-align: center; padding: 10px;">
-          <img src="{{ site.baseurl }}/assets/images/Image 2.png" alt="Sourdough Pizza" style="max-width: 100%; max-height: 100%; border-radius: 10px; object-fit: contain;">
-        </div>
-        <div style="flex: 1; text-align: left; padding: 10px;">
-          <h3 style="color: #2c3e50; margin-bottom: 10px;">Sourdough Pizza</h3>
-          <p style="color: #7f8c8d;">A crispy crust that’s perfect for any topping. A crowd favorite for sourdough lovers!</p>
+        <div style="flex: 1; text-align: left; padding: 20px; display: flex; flex-direction: column; justify-content: center; background-color: #ffe9d6;">
+          <h3 style="color: #e67e22; font-family: 'Arial', sans-serif; font-size: 24px; margin-bottom: 10px;">Sourdough Cinnamon Rolls</h3>
+          <p style="color: #7f8c8d; font-family: 'Arial', sans-serif; font-size: 16px;">Indulge in the sweet and tangy flavors of homemade sourdough cinnamon rolls.</p>
         </div>
       </div>
-      <div class="carousel-slide" style="flex: 0 0 100%; display: flex; height: 100%; background-color: #ffe9d6; padding: 10px; align-items: center;">
-        <div style="flex: 1; text-align: center; padding: 10px;">
-          <img src="{{ site.baseurl }}/assets/images/Image 3.png" alt="Sourdough Pancakes" style="max-width: 100%; max-height: 100%; border-radius: 10px; object-fit: contain;">
+      <div class="carousel-slide" style="flex: 0 0 100%; display: flex; height: 100%; padding: 0;">
+        <div style="flex: 1; height: 100%; overflow: hidden;">
+          <img src="{{ site.baseurl }}/assets/images/Image 2.png" alt="Sourdough Pizza" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
-        <div style="flex: 1; text-align: left; padding: 10px;">
-          <h3 style="color: #e67e22; margin-bottom: 10px;">Sourdough Pancakes</h3>
-          <p style="color: #7f8c8d;">Fluffy, tangy pancakes to brighten your mornings and bring joy to your family.</p>
+        <div style="flex: 1; text-align: left; padding: 20px; display: flex; flex-direction: column; justify-content: center; background-color: #f4f4f4;">
+          <h3 style="color: #2c3e50; font-family: 'Arial', sans-serif; font-size: 24px; margin-bottom: 10px;">Sourdough Pizza</h3>
+          <p style="color: #7f8c8d; font-family: 'Arial', sans-serif; font-size: 16px;">A crispy crust that’s perfect for any topping. A crowd favorite for sourdough lovers!</p>
+        </div>
+      </div>
+      <div class="carousel-slide" style="flex: 0 0 100%; display: flex; height: 100%; padding: 0;">
+        <div style="flex: 1; height: 100%; overflow: hidden;">
+          <img src="{{ site.baseurl }}/assets/images/Image 3.png" alt="Sourdough Pancakes" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div style="flex: 1; text-align: left; padding: 20px; display: flex; flex-direction: column; justify-content: center; background-color: #ffe9d6;">
+          <h3 style="color: #e67e22; font-family: 'Arial', sans-serif; font-size: 24px; margin-bottom: 10px;">Sourdough Pancakes</h3>
+          <p style="color: #7f8c8d; font-family: 'Arial', sans-serif; font-size: 16px;">Fluffy, tangy pancakes to brighten your mornings and bring joy to your family.</p>
         </div>
       </div>
     </div>
@@ -95,22 +95,19 @@ permalink: /sourdough
   const carouselDots = document.querySelectorAll('.carousel-dot');
   let currentIndex = 0;
 
-  // Update the carousel based on the current index
   function updateCarousel() {
     slides.style.transform = `translateX(-${currentIndex * 100}%)`;
     carouselDots.forEach(dot => dot.style.backgroundColor = '#ccc');
     carouselDots[currentIndex].style.backgroundColor = '#000';
   }
 
-  // Set up automatic sliding
   function startCarousel() {
     setInterval(() => {
       currentIndex = (currentIndex + 1) % slides.children.length;
       updateCarousel();
-    }, 5000); // 5000 ms = 5 seconds
+    }, 5000);
   }
 
-  // Add event listeners to dots for manual navigation
   carouselDots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
       currentIndex = index;
@@ -118,7 +115,6 @@ permalink: /sourdough
     });
   });
 
-  // Initialize the carousel
   updateCarousel();
   startCarousel();
 </script>
