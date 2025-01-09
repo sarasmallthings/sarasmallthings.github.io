@@ -4,7 +4,7 @@ title: Sourdough Recipes
 permalink: /sourdough
 ---
 
-<div style="position: relative; overflow: hidden; height: 300px;">
+<div style="position: relative; overflow: hidden; height: 300px; border-radius: 15px; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);">
   <!-- Background Video -->
   <video autoplay muted loop playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
     <source src="{{ site.baseurl }}/assets/videos/loop.mp4" type="video/mp4">
@@ -12,7 +12,7 @@ permalink: /sourdough
   </video>
 
   <!-- Text Overlay -->
-  <div style="position: relative; z-index: 1; text-align: center; color: white; padding: 100px 20px; background: rgba(0, 0, 0, 0.5);">
+  <div style="position: relative; z-index: 1; text-align: center; color: white; padding: 80px 20px; background: rgba(0, 0, 0, 0.4);">
     <h1 style="font-size: 2.5em; margin: 0;">Welcome to Sourdough Recipes</h1>
     <p style="font-size: 1.2em; margin-top: 10px;">Discover the art of fermentation and bake delicious memories.</p>
   </div>
