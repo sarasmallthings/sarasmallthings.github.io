@@ -75,19 +75,19 @@ permalink: /sourdough
         </div>
       </div>
     </div>
-    <div style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); z-index: 10;">
-      <ul style="list-style-type: none; display: flex; justify-content: center; padding: 0; margin: 0;">
-        <li style="margin: 0 5px;">
-          <button id="carouselDot1" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 12px; height: 12px; cursor: pointer;"></button>
-        </li>
-        <li style="margin: 0 5px;">
-          <button id="carouselDot2" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 12px; height: 12px; cursor: pointer;"></button>
-        </li>
-        <li style="margin: 0 5px;">
-          <button id="carouselDot3" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 12px; height: 12px; cursor: pointer;"></button>
-        </li>
-      </ul>
-    </div>
+    <div style="position: absolute; bottom: 10px; right: 10px; width: 100%; display: flex; justify-content: center; z-index: 10;">
+  <ul style="list-style-type: none; display: flex; justify-content: center; padding: 0; margin: 0;">
+    <li style="margin: 0 5px;">
+      <button id="carouselDot1" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 12px; height: 12px; cursor: pointer;"></button>
+    </li>
+    <li style="margin: 0 5px;">
+      <button id="carouselDot2" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 12px; height: 12px; cursor: pointer;"></button>
+    </li>
+    <li style="margin: 0 5px;">
+      <button id="carouselDot3" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 12px; height: 12px; cursor: pointer;"></button>
+    </li>
+  </ul>
+</div>
   </div>
 </div>
 
