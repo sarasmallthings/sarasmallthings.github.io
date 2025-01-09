@@ -53,21 +53,21 @@ permalink: /sourdough
       <div class="carousel-slides" style="display: flex; transition: transform 0.5s ease-in-out;">
         <!-- Slide 1 -->
         <div class="carousel-slide" style="flex: 0 0 100%; text-align: center; background-color: #ffe9d6; padding: 20px;">
-          <img src="{{ site.baseurl }}/assets/images/Image1.png" alt="Sourdough Cinnamon Rolls" style="max-width: 100%; border-radius: 10px; margin-bottom: 20px;">
+          <img src="{{ site.baseurl }}/assets/images/Image 1.png" alt="Sourdough Cinnamon Rolls" style="max-width: 100%; border-radius: 10px; margin-bottom: 20px;">
           <h3 style="color: #e67e22;">Sourdough Cinnamon Rolls</h3>
           <p style="color: #7f8c8d;">Indulge in the sweet and tangy flavors of homemade sourdough cinnamon rolls. Perfect for brunch or dessert!</p>
           <a href="{{ site.baseurl }}/sourdough-cinnamon-rolls-post" style="padding: 10px 20px; background-color: #e67e22; color: white; text-decoration: none; border-radius: 5px;">Get the Recipe</a>
         </div>
         <!-- Slide 2 -->
         <div class="carousel-slide" style="flex: 0 0 100%; text-align: center; background-color: #f4f4f4; padding: 20px;">
-          <img src="{{ site.baseurl }}/assets/images/Image2.png" alt="Sourdough Pizza" style="max-width: 100%; border-radius: 10px; margin-bottom: 20px;">
+          <img src="{{ site.baseurl }}/assets/images/Image 2.png" alt="Sourdough Pizza" style="max-width: 100%; border-radius: 10px; margin-bottom: 20px;">
           <h3 style="color: #2c3e50;">Sourdough Pizza</h3>
           <p style="color: #7f8c8d;">A crispy crust that’s perfect for any topping. A crowd favorite for sourdough lovers!</p>
           <a href="{{ site.baseurl }}/sourdough-pizza-post" style="padding: 10px 20px; background-color: #2c3e50; color: white; text-decoration: none; border-radius: 5px;">Get the Recipe</a>
         </div>
         <!-- Slide 3 -->
         <div class="carousel-slide" style="flex: 0 0 100%; text-align: center; background-color: #ffe9d6; padding: 20px;">
-          <img src="{{ site.baseurl }}/assets/images/Image3.png" alt="Sourdough Pancakes" style="max-width: 100%; border-radius: 10px; margin-bottom: 20px;">
+          <img src="{{ site.baseurl }}/assets/images/Image 3.png" alt="Sourdough Pancakes" style="max-width: 100%; border-radius: 10px; margin-bottom: 20px;">
           <h3 style="color: #e67e22;">Sourdough Pancakes</h3>
           <p style="color: #7f8c8d;">Fluffy, tangy pancakes to brighten your mornings and bring joy to your family.</p>
           <a href="{{ site.baseurl }}/sourdough-pancakes-post" style="padding: 10px 20px; background-color: #e67e22; color: white; text-decoration: none; border-radius: 5px;">Get the Recipe</a>
