@@ -67,60 +67,61 @@ permalink: /sourdough
       </div>
       <button id="carouselPrev" style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); background-color: rgba(0, 0, 0, 0.5); color: white; border: none; border-radius: 50%; padding: 10px;">❮</button>
       <button id="carouselNext" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); background-color: rgba(0, 0, 0, 0.5); color: white; border: none; border-radius: 50%; padding: 10px;">❯</button>
-      <div style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%);">
-        <ul style="list-style-type: none; display: flex; justify-content: center;">
+      <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);">
+        <ul style="list-style-type: none; display: flex; justify-content: center; padding: 0; margin: 0;">
           <li style="margin: 0 10px;">
-            <button id="carouselDot1" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 10px; height: 10px;"></button>
+            <button id="carouselDot1" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 12px; height: 12px; cursor: pointer;"></button>
           </li>
           <li style="margin: 0 10px;">
-            <button id="carouselDot2" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 10px; height: 10px;"></button>
+            <button id="carouselDot2" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 12px; height: 12px; cursor: pointer;"></button>
           </li>
           <li style="margin: 0 10px;">
-  <button id="carouselDot3" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 10px; height: 10px;"></button>
-</li>
-</ul>
-</div>
-</div>
+            <button id="carouselDot3" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 12px; height: 12px; cursor: pointer;"></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-<script>
-  const slides = document.querySelector('.carousel-slides');
-  const prevButton = document.getElementById('carouselPrev');
-  const nextButton = document.getElementById('carouselNext');
-  const carouselDots = document.querySelectorAll('.carousel-dot');
-  let currentIndex = 0;
+  <script>
+    const slides = document.querySelector('.carousel-slides');
+    const prevButton = document.getElementById('carouselPrev');
+    const nextButton = document.getElementById('carouselNext');
+    const carouselDots = document.querySelectorAll('.carousel-dot');
+    let currentIndex = 0;
 
-  // update the carousel based on the current index
-  function updateCarousel() {
-    slides.style.transform = `translateX(-${currentIndex * 100}%)`;
-    carouselDots.forEach(dot => dot.style.backgroundColor = '#ccc');
-    carouselDots[currentIndex].style.backgroundColor = '#000';
-  }
+    // update the carousel based on the current index
+    function updateCarousel() {
+      slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+      carouselDots.forEach(dot => dot.style.backgroundColor = '#ccc');
+      carouselDots[currentIndex].style.backgroundColor = '#000';
+    }
 
-  // update the current slide when a dot is clicked
-  carouselDots.forEach((dot, index) => {
-    dot.addEventListener('click', () => {
-      currentIndex = index;
+    // update the current slide when a dot is clicked
+    carouselDots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        currentIndex = index;
+        updateCarousel();
+      });
+    });
+
+    prevButton.addEventListener('click', () => {
+      currentIndex = (currentIndex === 0) ? slides.children.length - 1 : currentIndex - 1;
       updateCarousel();
     });
-  });
 
-  prevButton.addEventListener('click', () => {
-    currentIndex = (currentIndex === 0) ? slides.children.length - 1 : currentIndex - 1;
+    nextButton.addEventListener('click', () => {
+      currentIndex = (currentIndex === slides.children.length - 1) ? 0 : currentIndex + 1;
+      updateCarousel();
+    });
+
     updateCarousel();
-  });
+  </script>
 
-  nextButton.addEventListener('click', () => {
-    currentIndex = (currentIndex === slides.children.length - 1) ? 0 : currentIndex + 1;
-    updateCarousel();
-  });
+  <h2>Why Sourdough?</h2>
+  <p>Sourdough is more than bread; it’s a journey. Its rich flavor, health benefits, and timeless techniques make it a rewarding experience for anyone who tries it. Let’s bake memories together!</p>
 
-  updateCarousel(); 
-</script>
-
-<h2>Why Sourdough?</h2>
-<p>Sourdough is more than bread; it’s a journey. Its rich flavor, health benefits, and timeless techniques make it a rewarding experience for anyone who tries it. Let’s bake memories together!</p>
-
-<div style="text-align: center; margin-top: 30px;">
-  <a href="{{ site.baseurl }}/contact" style="padding: 10px 20px; background-color: #e67e22; color: white; text-decoration: none; border-radius: 5px;">Share Your Recipes</a>
-</div>
+  <div style="text-align: center; margin-top: 30px;">
+    <a href="{{ site.baseurl }}/contact" style="padding: 10px 20px; background-color: #e67e22; color: white; text-decoration: none; border-radius: 5px;">Share Your Recipes</a>
+  </div>
 </div>
