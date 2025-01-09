@@ -53,7 +53,7 @@ permalink: /sourdough
     <h3 style="color: #e67e22; text-align: center;">Featured Recipe of the Month</h3>
     <p style="color: #7f8c8d; text-align: center; font-size: 1.1em;">Indulge in the sweet and tangy flavors of homemade sourdough cinnamon rolls. Perfect for brunch or dessert!</p>
     <div style="text-align: center;">
-      <img src="{{ site.baseurl }}/assets/images/cinnamon-rolls.jpg" alt="Sourdough Cinnamon Rolls" style="max-width: 100%; border-radius: 10px; margin: 20px 0;">
+      <img src="{{ site.baseurl }}/assets/images/Image 1.png" alt="Sourdough Cinnamon Rolls" style="max-width: 100%; border-radius: 10px; margin: 20px 0;">
     </div>
     <div style="text-align: center; margin-top: 10px;">
       <a href="{{ site.baseurl }}/sourdough-cinnamon-rolls-post" style="padding: 10px 20px; background-color: #e67e22; color: white; text-decoration: none; border-radius: 5px; font-size: 1.1em;">Get the Recipe</a>
