@@ -46,20 +46,20 @@ permalink: /sourdough
       <p style="margin: 5px 0; color: #7f8c8d;">A crispy crust that’s perfect for any topping.</p>
     </li>
   </ul>
-  
+
   <!-- Featured Recipe Section -->
-<div style="background-color: #ffe9d6; padding: 40px 0; margin: 20px 0;">
-  <div style="max-width: 800px; margin: 0 auto; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <h3 style="color: #e67e22; text-align: center;">Featured Recipe of the Month</h3>
-    <p style="color: #7f8c8d; text-align: center; font-size: 1.1em;">Indulge in the sweet and tangy flavors of homemade sourdough cinnamon rolls. Perfect for brunch or dessert!</p>
-    <div style="text-align: center;">
-      <img src="{{ site.baseurl }}/assets/images/Image 1.png" alt="Sourdough Cinnamon Rolls" style="max-width: 100%; border-radius: 10px; margin: 20px 0;">
-    </div>
-    <div style="text-align: center; margin-top: 10px;">
-      <a href="{{ site.baseurl }}/sourdough-cinnamon-rolls-post" style="padding: 10px 20px; background-color: #e67e22; color: white; text-decoration: none; border-radius: 5px; font-size: 1.1em;">Get the Recipe</a>
+  <div style="background-color: #ffe9d6; padding: 40px 0; margin: 20px 0; border-radius: 15px; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);">
+    <div style="max-width: 800px; margin: 0 auto; padding: 20px; background: white; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+      <h3 style="color: #e67e22; font-size: 2em;">Featured Recipe of the Month</h3>
+      <p style="color: #7f8c8d; font-size: 1.2em; margin-bottom: 20px;">Indulge in the sweet and tangy flavors of homemade sourdough cinnamon rolls. Perfect for brunch or dessert!</p>
+      <img src="{{ site.baseurl }}/assets/images/Image 1.png" alt="Sourdough Cinnamon Rolls" style="max-width: 100%; border-radius: 10px; margin-bottom: 20px;">
+      <div>
+        <a href="{{ site.baseurl }}/sourdough-cinnamon-rolls-post" style="padding: 15px 30px; background-color: #e67e22; color: white; text-decoration: none; border-radius: 8px; font-size: 1.2em; transition: all 0.3s ease-in-out; display: inline-block;">
+          Get the Recipe
+        </a>
+      </div>
     </div>
   </div>
-</div>
 
   <!-- Why Sourdough Section -->
   <h2>Why Sourdough?</h2>
