@@ -9,13 +9,14 @@ permalink: /sourdough
 
   <p>Welcome to the heart of sourdough creativity! Whether you're a seasoned baker or just starting your sourdough journey, this is your go-to space for inspiration, guidance, and delicious recipes. Discover the magic of fermentation and create recipes that bring warmth to your table.</p>
   
-<div class="video-container" style="text-align: center; margin: 20px 0;">
-  <video autoplay muted loop playsinline style="max-width: 60%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
-    <source src="{{ site.baseurl }}/assets/videos/loop.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
+  <div class="video-container" style="text-align: center; margin: 20px 0;">
+    <video autoplay muted loop playsinline style="max-width: 70%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+      <source src="{{ site.baseurl }}/assets/videos/loop.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Watch the magic of sourdough in action!</p>
+  </div>
+  
   <h2>Explore Our Recipes</h2>
   <p>Each recipe is carefully crafted to guide you step-by-step, ensuring success and delight. Click below to start baking!</p>
   
