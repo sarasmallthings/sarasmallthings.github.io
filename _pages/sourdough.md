@@ -4,19 +4,21 @@ title: Sourdough Recipes
 permalink: /sourdough
 ---
 
-<div class="container">
-  <h1>Sourdough Recipes</h1>
+<div style="position: relative; overflow: hidden; height: 300px;">
+  <!-- Background Video -->
+  <video autoplay muted loop playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    <source src="{{ site.baseurl }}/assets/videos/loop.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
-  <p>Welcome to the heart of sourdough creativity! Whether you're a seasoned baker or just starting your sourdough journey, this is your go-to space for inspiration, guidance, and delicious recipes. Discover the magic of fermentation and create recipes that bring warmth to your table.</p>
-  
-  <div class="video-container" style="text-align: center; margin: 20px 0;">
-    <video autoplay muted loop playsinline style="max-width: 50%; height: auto; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
-      <source src="{{ site.baseurl }}/assets/videos/loop.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">Watch the magic of sourdough in action!</p>
+  <!-- Text Overlay -->
+  <div style="position: relative; z-index: 1; text-align: center; color: white; padding: 100px 20px; background: rgba(0, 0, 0, 0.5);">
+    <h1 style="font-size: 2.5em; margin: 0;">Welcome to Sourdough Recipes</h1>
+    <p style="font-size: 1.2em; margin-top: 10px;">Discover the art of fermentation and bake delicious memories.</p>
   </div>
-  
+</div>
+
+<div class="container" style="padding: 20px;">
   <h2>Explore Our Recipes</h2>
   <p>Each recipe is carefully crafted to guide you step-by-step, ensuring success and delight. Click below to start baking!</p>
   
