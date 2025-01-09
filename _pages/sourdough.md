@@ -43,47 +43,48 @@ permalink: /sourdough
     </li>
   </ul>
 
- <div id="recipeCarousel" class="carousel" style="margin: 40px 0; max-width: 800px; height: 300px; overflow: hidden; border-radius: 15px; position: relative; margin-left: auto; margin-right: auto;">
+ <div id="recipeCarousel" class="carousel" style="margin: 40px auto; max-width: 900px; height: 350px; overflow: hidden; border-radius: 15px; position: relative; margin-left: auto; margin-right: auto;">
   <div class="carousel-container" style="width: 100%; height: 100%; position: relative;">
     <div class="carousel-slides" style="display: flex; transition: transform 0.5s ease-in-out; height: 100%;">
+      <!-- Slide 1 -->
       <div class="carousel-slide" style="flex: 0 0 100%; display: flex; height: 100%; padding: 0;">
         <div style="flex: 1; height: 100%; overflow: hidden;">
           <img src="{{ site.baseurl }}/assets/images/Image 1.png" alt="Sourdough Cinnamon Rolls" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
-        <div style="flex: 1; text-align: left; padding: 20px; display: flex; flex-direction: column; justify-content: center; background-color: #ffe9d6;">
-          <h3 style="color: #e67e22; font-family: 'Arial', sans-serif; font-size: 24px; margin-bottom: 10px;">Sourdough Cinnamon Rolls</h3>
-          <p style="color: #7f8c8d; font-family: 'Arial', sans-serif; font-size: 16px;">Indulge in the sweet and tangy flavors of homemade sourdough cinnamon rolls.</p>
+        <div style="flex: 1; text-align: left; padding: 20px; display: flex; flex-direction: column; justify-content: center; background-color: #ffe9d6; border-left: 3px solid #e67e22;">
+          <h3 style="color: #e67e22; font-family: 'Arial', sans-serif; font-size: 26px; margin-bottom: 12px;">Sourdough Cinnamon Rolls</h3>
+          <p style="color: #7f8c8d; font-family: 'Arial', sans-serif; font-size: 18px; line-height: 1.6;">Indulge in the sweet and tangy flavors of homemade sourdough cinnamon rolls.</p>
         </div>
       </div>
       <div class="carousel-slide" style="flex: 0 0 100%; display: flex; height: 100%; padding: 0;">
         <div style="flex: 1; height: 100%; overflow: hidden;">
           <img src="{{ site.baseurl }}/assets/images/Image 2.png" alt="Sourdough Pizza" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
-        <div style="flex: 1; text-align: left; padding: 20px; display: flex; flex-direction: column; justify-content: center; background-color: #f4f4f4;">
-          <h3 style="color: #2c3e50; font-family: 'Arial', sans-serif; font-size: 24px; margin-bottom: 10px;">Sourdough Pizza</h3>
-          <p style="color: #7f8c8d; font-family: 'Arial', sans-serif; font-size: 16px;">A crispy crust that’s perfect for any topping. A crowd favorite for sourdough lovers!</p>
+        <div style="flex: 1; text-align: left; padding: 20px; display: flex; flex-direction: column; justify-content: center; background-color: #f4f4f4; border-left: 3px solid #2c3e50;">
+          <h3 style="color: #2c3e50; font-family: 'Arial', sans-serif; font-size: 26px; margin-bottom: 12px;">Sourdough Pizza</h3>
+          <p style="color: #7f8c8d; font-family: 'Arial', sans-serif; font-size: 18px; line-height: 1.6;">A crispy crust that’s perfect for any topping. A crowd favorite for sourdough lovers!</p>
         </div>
       </div>
       <div class="carousel-slide" style="flex: 0 0 100%; display: flex; height: 100%; padding: 0;">
         <div style="flex: 1; height: 100%; overflow: hidden;">
           <img src="{{ site.baseurl }}/assets/images/Image 3.png" alt="Sourdough Pancakes" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
-        <div style="flex: 1; text-align: left; padding: 20px; display: flex; flex-direction: column; justify-content: center; background-color: #ffe9d6;">
-          <h3 style="color: #e67e22; font-family: 'Arial', sans-serif; font-size: 24px; margin-bottom: 10px;">Sourdough Pancakes</h3>
-          <p style="color: #7f8c8d; font-family: 'Arial', sans-serif; font-size: 16px;">Fluffy, tangy pancakes to brighten your mornings and bring joy to your family.</p>
+        <div style="flex: 1; text-align: left; padding: 20px; display: flex; flex-direction: column; justify-content: center; background-color: #ffe9d6; border-left: 3px solid #e67e22;">
+          <h3 style="color: #e67e22; font-family: 'Arial', sans-serif; font-size: 26px; margin-bottom: 12px;">Sourdough Pancakes</h3>
+          <p style="color: #7f8c8d; font-family: 'Arial', sans-serif; font-size: 18px; line-height: 1.6;">Fluffy, tangy pancakes to brighten your mornings and bring joy to your family.</p>
         </div>
       </div>
     </div>
-    <div style="position: absolute; bottom: 15px; left: 50%; transform: translateX(-50%);">
+    <div style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); z-index: 10;">
       <ul style="list-style-type: none; display: flex; justify-content: center; padding: 0; margin: 0;">
         <li style="margin: 0 5px;">
-          <button id="carouselDot1" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 10px; height: 10px; cursor: pointer;"></button>
+          <button id="carouselDot1" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 12px; height: 12px; cursor: pointer;"></button>
         </li>
         <li style="margin: 0 5px;">
-          <button id="carouselDot2" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 10px; height: 10px; cursor: pointer;"></button>
+          <button id="carouselDot2" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 12px; height: 12px; cursor: pointer;"></button>
         </li>
         <li style="margin: 0 5px;">
-          <button id="carouselDot3" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 10px; height: 10px; cursor: pointer;"></button>
+          <button id="carouselDot3" class="carousel-dot" style="background-color: #ccc; border: none; border-radius: 50%; width: 12px; height: 12px; cursor: pointer;"></button>
         </li>
       </ul>
     </div>
