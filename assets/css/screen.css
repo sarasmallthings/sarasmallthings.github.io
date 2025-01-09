@@ -14,7 +14,7 @@ body {
 }
 .mainheading {
     padding: 1rem 0rem;
-    font-family: Dancing Script, cursive; /* Apply Dancing Script font */
+    font-family: Merriweather; /* Apply Merriweather font */
     font-size: 3rem; /* Adjust the size of the heading */
 }
 
