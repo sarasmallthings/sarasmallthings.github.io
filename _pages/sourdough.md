@@ -10,7 +10,7 @@ permalink: /sourdough
   <p>Welcome to the heart of sourdough creativity! Whether you're a seasoned baker or just starting your sourdough journey, this is your go-to space for inspiration, guidance, and delicious recipes. Discover the magic of fermentation and create recipes that bring warmth to your table.</p>
   
   <div class="image-container" style="text-align: center; margin: 20px 0;">
-    <img src="{{ site.baseurl }}/assets/imgages/placeholder.jpg" alt="A rustic loaf of sourdough bread on a wooden board" style="max-width: 80%; border-radius: 10px;">
+    <img src="{{ site.baseurl }}/assets/images/placeholder.jpg" alt="A rustic loaf of sourdough bread on a wooden board" style="max-width: 80%; border-radius: 10px;">
   </div>
   
   <h2>Explore Our Recipes</h2>
