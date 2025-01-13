@@ -5,7 +5,7 @@ author: sara
 categories: [ Recipes, Baking ]
 image: assets/images/Image 4.png  # Rectangular image for the blog page
 featured: true
-permalink: /sourdough
+permalink: /sourdoughpumpkin
 hidden: true
 ---
 
