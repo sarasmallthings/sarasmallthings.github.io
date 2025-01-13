@@ -12,11 +12,12 @@ Welcome to the Food Recipes page! Here are ten delightful recipes to try. Click 
   <div class="col-md-6 col-lg-4 mb-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title"><a href="{{ site.baseurl }}/sourdough-bread-post">Sourdough Bread</a></h5>
+        <h5 class="card-title"><a href="https://sarasmallthings.github.io/sourdough-pumpkin/" target="_blank">Sourdough Pumpkin Bread</a></h5>
         <p class="card-text">A crunchy and soft homemade sourdough bread with a tangy twist. Perfect for breakfast or sandwiches.</p>
       </div>
     </div>
   </div>
+</div>
   <div class="col-md-6 col-lg-4 mb-4">
     <div class="card">
       <div class="card-body">
